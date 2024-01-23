@@ -1,5 +1,5 @@
 for (let index = 0; index < 4; index++) {
-    images.iconImage(IconNames.Surprised).showImage(0)
+    images.iconImage(IconNames.Surprised).showImage(4, 30)
 }
 basic.showLeds(`
     # # # # #
@@ -14,6 +14,9 @@ led.plotBarGraph(
 true
 )
 led.unplot(5, 4)
+for (let index = 0; index < 4; index++) {
+	
+}
 basic.forever(function () {
 	
 })
