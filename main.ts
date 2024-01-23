@@ -21,8 +21,8 @@ for (let index = 0; index < 10; index++) {
         # . . . #
         `)
     images.iconImage(IconNames.Heart).showImage(0)
+    continue;
 }
-continue;
 basic.forever(function () {
     for (let index = 0; index < 4; index++) {
     	
