@@ -20,7 +20,8 @@ for (let index = 0; index < 2; index++) {
         # . . . #
         # . . . #
         `)
-    images.iconImage(IconNames.Heart).showImage(4, 30)
+    images.iconImage(IconNames.Heart).showImage(0)
+    continue;
 }
 basic.forever(function () {
     for (let index = 0; index < 4; index++) {
