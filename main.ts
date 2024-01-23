@@ -1,5 +1,4 @@
 for (let index = 0; index < 2; index++) {
-    images.iconImage(IconNames.Angry).showImage(4, 30)
     basic.showLeds(`
         # # # # #
         # . . . #
@@ -14,6 +13,14 @@ for (let index = 0; index < 2; index++) {
         # . . # #
         # . . . #
         `)
+    basic.showLeds(`
+        # # # # #
+        # . . . #
+        # # # # #
+        # . . . #
+        # . . . #
+        `)
+    images.iconImage(IconNames.Heart).showImage(4, 30)
 }
 basic.forever(function () {
     for (let index = 0; index < 4; index++) {
