@@ -1,13 +1,13 @@
 <xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="U@s;z?$;!=FHMMy0~{6f" x="54" y="62"><statement name="HANDLER"><block type="controls_repeat_ext" id="n0KS^IdIt@8ZIfjx^LF;"><value name="TIMES"><shadow type="math_whole_number" id="!Y[NN15W(qX?$I#DcQGH"><field name="NUM">2</field></shadow></value><statement name="DO"><block type="device_show_image_offset" id="j+?w4:LL[N(|25YyjJ*5"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="builtin_image" id="B5I5?.gttQm[XX;rA#-Q"><field name="i">IconNames.Angry</field></block></value><value name="offset"><shadow type="math_number" id="~h%FQn,ze4#k?mzx3Ur+"><field name="NUM">4</field></shadow></value><value name="interval"><shadow type="math_number" id="}$C2i4Bg#/GwSiT#D*da"><field name="NUM">30</field></shadow></value><next><block type="device_show_leds" id="/#)BI@q+O4;lr1d!eXej"><field name="LEDS">`
         # # # # # 
-        . . # . . 
-        . . # . . 
-        . . # . . 
-        # # # . .
+        # . . . # 
+        # # # # # 
+        # . . . # 
+        # . . . #
         `</field><next><block type="device_show_leds" id="0J{08KZTo(@Mpf%X4yz|"><field name="LEDS">`
-        # # # # # 
         # . . . # 
-        # # # # # 
-        # . . . # 
+        # # . . # 
+        # . # . # 
+        # . . # # 
         # . . . #
         `</field></block></next></block></next></block></statement></block></statement></block><block type="builtin_image" id="/]Pgg)T.5:OvKBw8}UyS" disabled="true" x="349" y="221"><field name="i">IconNames.Heart</field></block><block type="device_forever" id=".Wm!d7*I$ZG,;{+UH-3w" x="151" y="672"><statement name="HANDLER"><block type="controls_repeat_ext" id="U(i69A:%;o:j1;EbbHF/"><value name="TIMES"><shadow type="math_whole_number" id="04U1yPI+;#?;xTD1ncu("><field name="NUM">4</field></shadow></value></block></statement></block></xml>
