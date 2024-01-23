@@ -1,5 +1,5 @@
 for (let index = 0; index < 4; index++) {
-	
+    images.iconImage(IconNames.Surprised).showImage(0)
 }
 basic.showLeds(`
     # # # # #
